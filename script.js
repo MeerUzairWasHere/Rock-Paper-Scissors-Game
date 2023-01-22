@@ -62,15 +62,15 @@ function showResult(score, playerChoice, computerChoice) {
   else if (score == 1) {
     resultDiv.innerText = 'You Win!'
   }
-  else {
+  else if(score == 0) {
     resultDiv.innerText = 'DRAW!'
   }
 
   handsDiv.innerText = `⛹️${playerChoice} vs 🤖${computerChoice}`
 
-  playerScoreDiv.innerText = `Player total score: ${totalScore['playerScore']}`
+  playerScoreDiv.innerText = `⛹️ total score: ${totalScore['playerScore']}`
 
-  computerScoreDiv.innerText = `Computer total score: ${totalScore['computerScore']}`
+  computerScoreDiv.innerText =  `🤖 total score: ${totalScore['computerScore']}`
 
 }
 
