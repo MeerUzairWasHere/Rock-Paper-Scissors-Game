@@ -38,7 +38,7 @@ function getResult(playerChoice, computerChoice) {
     score = 1
   }
   else if (playerChoice == 'Scissors' && computerChoice == 'Paper') {
-    score = 0
+    score = 1
   }
   else {
     score = -1
