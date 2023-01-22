@@ -68,9 +68,9 @@ function showResult(score, playerChoice, computerChoice) {
 
   handsDiv.innerText = `⛹️${playerChoice} vs 🤖${computerChoice}`
 
-  playerScoreDiv.innerText = `⛹️ total score: ${totalScore['playerScore']}`
+  playerScoreDiv.innerText = `Your total score: ${totalScore['playerScore']}`
 
-  computerScoreDiv.innerText =  `🤖 total score: ${totalScore['computerScore']}`
+  // computerScoreDiv.innerText =  `🤖 total score: ${totalScore['computerScore']}`
 
 }
 
@@ -81,7 +81,7 @@ function onClickRPS(playerChoice) {
   //if (score == 1)
    totalScore['playerScore'] += score
   //else
- totalScore['computerScore'] += score
+// totalScore['computerScore'] += score
   showResult(score, playerChoice, computerChoice)
 }
 
@@ -105,12 +105,12 @@ function playGame() {
 // ** endGame function clears all the text on the DOM **
 function endGame(totalScore) {
   totalScore['playerScore'] = 0
-  totalScore['computerScore'] = 0
+  //totalScore['computerScore'] = 0
 
   const resultDiv = document.getElementById('result')
   const handsDiv = document.getElementById('hands')
   const playerScoreDiv = document.getElementById('player-score')
-  const computerScoreDiv = document.getElementById('computer-score')
+  //const computerScoreDiv = document.getElementById('computer-score')
 
 
   resultDiv.innerText = ''
