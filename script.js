@@ -78,10 +78,10 @@ function showResult(score, playerChoice, computerChoice) {
 function onClickRPS(playerChoice) {
   const computerChoice = getComputerChoice()
   const score = getResult(playerChoice, computerChoice)
-  if (score == 1)
-    totalScore['playerScore'] += score
-  else
-    totalScore['computerScore'] += score
+  //if (score == 1)
+ //   totalScore['playerScore'] += score
+  //else
+ //   totalScore['computerScore'] += score
   showResult(score, playerChoice, computerChoice)
 }
 
