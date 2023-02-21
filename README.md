@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors-Game
-A exercise challenge by CLEVER PROGRAMMER
+This Git repository contains the code for the Rock-Paper-Scissors game developed as an exercise by Clever Programmer on YouTube. The game is developed using HTML, CSS, and JavaScript, and features a user-friendly interface that allows players to choose between rock, paper, and scissors to play against the computer. The code is well-organized and easy to understand, making it a great resource for those who want to learn more about game development and programming.
